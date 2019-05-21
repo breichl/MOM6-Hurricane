@@ -1,0 +1,11 @@
+! Blank file in which we can put "overrides" for parameters
+ADD_DIURNAL_SW = True ! This must ONLY be used in the ice-ocean mode, NOT fully coupled mode.
+#override NIGLOBAL = 165
+#override NJGLOBAL = 75
+#override REENTRANT_X = False
+#override TRIPOLAR_N = False
+#override DO_ICEBERGS = False
+MAXIMUM_DEPTH = 5500.
+!MINIMUM_DEPTH = 10.
+!MASKING_DEPTH = 10.
+TOPO_FILE = 'ocean_topog.nc'

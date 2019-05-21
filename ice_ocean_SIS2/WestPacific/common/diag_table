@@ -1,0 +1,35 @@
+"WestPac Experiment"
+1900 1 1 0 0 0
+
+"TwoD",  2,"hours",1,"days","time"
+"ThreeD",6,"hours",1,"days","time"
+
+"ocean_model","u","u","ThreeD","all",.true.,"none",2
+"ocean_model","v","v","ThreeD","all",.true.,"none",2
+#"ocean_model","3d_stokes_y","3d_stokes_y","ThreeD","all",.true.,"none",2
+#"ocean_model","3d_stokes_x","3d_stokes_x","ThreeD","all",.true.,"none",2
+#"ocean_model","h","h","ThreeD","all",.true.,"none",1
+#"ocean_model","e","e","ThreeD","all",.true.,"none",2
+"ocean_model","temp","temp","ThreeD","all",.true.,"none",2
+#"ocean_model","Kv_u","Kv_u","ThreeD","all",.true.,"none",2
+#"ocean_model","Kv_v","Kv_v","ThreeD","all",.true.,"none",2
+#"ocean_model","Kd_interface","Kd_interface","ThreeD","all",.true.,"none",2
+#"ocean_model","EnhK","EnhK","ThreeD","all",.true.,"none",2
+#"ocean_model","EnhVt2","EnhVt2","ThreeD","all",.true.,"none",2
+#"ocean_model","umo","umo","ThreeD","all",.true.,"none",2
+#"ocean_model","vmo","vmo","ThreeD","all",.true.,"none",2
+
+"ocean_model","SSH","SSH","TwoD","all",mean,"none",2
+"ocean_model","taux","taux","TwoD","all",mean,"none",2
+"ocean_model","tauy","tauy","TwoD","all",mean,"none",2
+"ocean_model","SST","SST","TwoD","all",mean,"none",2
+"ocean_model","SSU","SSU","TwoD","all",mean,"none",2
+"ocean_model","SSV","SSV","TwoD","all",mean,"none",2
+"ocean_model","MLD_003","MLD_003","TwoD","all",mean,"none",2
+#"ocean_model","KPP_OBLdepth","KPP_OBLdepth","TwoD","all",.true.,"none",2
+#"ocean_model","ustar","ustar","TwoD","all",.true.,"none",2
+#"ocean_model","net_heat_surface","net_heat_surface","TwoD","all",.true.,"none",2
+#"ocean_model","surface_stokes_x","surface_stokes_x","TwoD","all",.true.,"none",2
+#"ocean_model","surface_stokes_y","surface_stokes_y","TwoD","all",.true.,"none",2
+#"ocean_model","KPP_La_SL","KPP_La_SL","TwoD","all",.true.,"none",2
+#"ocean_model","La_turbulent","La_turbulent","TwoD","all",.true.,"none",2

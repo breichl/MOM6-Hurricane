@@ -1,0 +1,25 @@
+# Build directory might optionally be placed here
+build*
+# Ignore .datasets
+.datasets
+# Ignore model output
+*.out
+CPU_stats.*
+_read_error.nml
+available_diags.0*
+SIS.available_diags
+SIS_fast.available_diags
+exitcode
+fort.20
+*.nc
+*.nc.*
+RESTART
+ocean.stats.*
+seaice.stats.*
+# Ignore python .pyc files
+*.pyc
+.ipynb_checkpoints
+# Ignore anything labeled ignore
+*.ignore
+# Ignore lcov files
+lcov.*
