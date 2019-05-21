@@ -1,1 +1,1 @@
-../../.datasets/0p5/ocean_mosaic.nc
+.datasets/0p5/ocean_mosaic.nc

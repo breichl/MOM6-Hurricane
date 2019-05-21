@@ -1,1 +1,1 @@
-../../.datasets/0p5/ocean_topog.nc
+.datasets/0p5/ocean_topog.nc

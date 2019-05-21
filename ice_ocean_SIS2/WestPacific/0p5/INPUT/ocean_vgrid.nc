@@ -1,1 +1,1 @@
-../../.datasets/0p5/ocean_vgrid.nc
+.datasets/0p5/ocean_vgrid.nc

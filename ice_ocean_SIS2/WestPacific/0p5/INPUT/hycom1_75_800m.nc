@@ -1,1 +1,1 @@
-../../.datasets/hycom1_75_800m.nc
+.datasets/hycom1_75_800m.nc

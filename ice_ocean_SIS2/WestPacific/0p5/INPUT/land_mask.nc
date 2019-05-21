@@ -1,1 +1,1 @@
-../../.datasets/0p5/land_mask.nc
+.datasets/0p5/land_mask.nc
