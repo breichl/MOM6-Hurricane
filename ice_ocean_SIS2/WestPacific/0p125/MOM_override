@@ -1,0 +1,5 @@
+! Blank file in which we can put "overrides" for parameters !VERBOSITY = 9
+#override NIGLOBAL = 660
+#override NJGLOBAL = 300
+
+
