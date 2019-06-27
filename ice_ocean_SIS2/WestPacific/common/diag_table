@@ -1,35 +1,63 @@
-"WestPac Experiment"
+"OM4p25 Experiment"
 1900 1 1 0 0 0
 
-"TwoD",  2,"hours",1,"days","time"
-"ThreeD",6,"hours",1,"days","time"
+"TwoD",  3,"hours",1,"days","time"
+"ThreeD",3,"hours",1,"days","time"
+"Fluxes",3,"hours",1,"days","time"
 
-"ocean_model","u","u","ThreeD","all",.true.,"none",2
-"ocean_model","v","v","ThreeD","all",.true.,"none",2
-#"ocean_model","3d_stokes_y","3d_stokes_y","ThreeD","all",.true.,"none",2
-#"ocean_model","3d_stokes_x","3d_stokes_x","ThreeD","all",.true.,"none",2
-#"ocean_model","h","h","ThreeD","all",.true.,"none",1
-#"ocean_model","e","e","ThreeD","all",.true.,"none",2
-"ocean_model","temp","temp","ThreeD","all",.true.,"none",2
-#"ocean_model","Kv_u","Kv_u","ThreeD","all",.true.,"none",2
-#"ocean_model","Kv_v","Kv_v","ThreeD","all",.true.,"none",2
-#"ocean_model","Kd_interface","Kd_interface","ThreeD","all",.true.,"none",2
-#"ocean_model","EnhK","EnhK","ThreeD","all",.true.,"none",2
-#"ocean_model","EnhVt2","EnhVt2","ThreeD","all",.true.,"none",2
-#"ocean_model","umo","umo","ThreeD","all",.true.,"none",2
-#"ocean_model","vmo","vmo","ThreeD","all",.true.,"none",2
+"ocean_model","u","u","ThreeD","all","mean","none",2
+"ocean_model","v","v","ThreeD","all","mean","none",2
+#"ocean_model","3d_stokes_y","3d_stokes_y","ThreeD","all","mean","none",2
+#"ocean_model","3d_stokes_x","3d_stokes_x","ThreeD","all","mean","none",2
+#"ocean_model","h","h","ThreeD","all","mean","none",1
+#"ocean_model","e","e","ThreeD","all","mean","none",2
+"ocean_model","temp","temp","ThreeD","all","mean","none",2
+#"ocean_model","Kv_u","Kv_u","ThreeD","all","mean","none",2
+#"ocean_model","Kv_v","Kv_v","ThreeD","all","mean","none",2
+#"ocean_model","Kd_interface","Kd_interface","ThreeD","all","mean","none",2
+#"ocean_model","EnhK","EnhK","ThreeD","all","mean","none",2
+#"ocean_model","EnhVt2","EnhVt2","ThreeD","all","mean","none",2
+#"ocean_model","umo","umo","ThreeD","all","mean","none",2
+#"ocean_model","vmo","vmo","ThreeD","all","mean","none",2
 
-"ocean_model","SSH","SSH","TwoD","all",mean,"none",2
-"ocean_model","taux","taux","TwoD","all",mean,"none",2
-"ocean_model","tauy","tauy","TwoD","all",mean,"none",2
-"ocean_model","SST","SST","TwoD","all",mean,"none",2
-"ocean_model","SSU","SSU","TwoD","all",mean,"none",2
-"ocean_model","SSV","SSV","TwoD","all",mean,"none",2
-"ocean_model","MLD_003","MLD_003","TwoD","all",mean,"none",2
-#"ocean_model","KPP_OBLdepth","KPP_OBLdepth","TwoD","all",.true.,"none",2
-#"ocean_model","ustar","ustar","TwoD","all",.true.,"none",2
-#"ocean_model","net_heat_surface","net_heat_surface","TwoD","all",.true.,"none",2
-#"ocean_model","surface_stokes_x","surface_stokes_x","TwoD","all",.true.,"none",2
-#"ocean_model","surface_stokes_y","surface_stokes_y","TwoD","all",.true.,"none",2
-#"ocean_model","KPP_La_SL","KPP_La_SL","TwoD","all",.true.,"none",2
-#"ocean_model","La_turbulent","La_turbulent","TwoD","all",.true.,"none",2
+"ocean_model","taux","taux","Fluxes","all","mean","none",2
+"ocean_model","tauy","tauy","Fluxes","all","mean","none",2
+"ocean_model","hfrainds","hfrainds","Fluxes","all","mean","none",2  # heat content of lprec fprec condensate
+"ocean_model","hfevapds","hfevapds","Fluxes","all","mean","none",2  # heat content of mass leaving ocean
+"ocean_model","hfrunoffds","hfrunoffds","Fluxes","all","mean","none",2  # heat content of lrunoff frunoff
+"ocean_model","hfsnthermds","hfsnthermds","Fluxes","all","mean","none",2  # latent heat to melt snow
+"ocean_model","hfsifrazil","hfsifrazil","Fluxes","all","mean","none",2  # frazil formation
+"ocean_model","hfibthermds","hfibthermds","Fluxes","all","mean","none",2  # latent heat to melt icebergs
+"ocean_model","hfsolidrunoffds","hfsolidrunoffds","Fluxes","all","mean","none",2  # ne 0 since ice has SST
+"ocean_model","rlntds","rlntds","Fluxes","all","mean","none",2  # longwave down
+"ocean_model","hflso","hflso","Fluxes","all","mean","none",2  # latent heat for evap+melt
+"ocean_model","hfsso","hfsso","Fluxes","all","mean","none",2  # sensible from air-sea and ice-sea
+"ocean_model","rsntds","rsntds","Fluxes","all","mean","none",2  # shortwave
+"ocean_model","rsdo","rsdo","Fluxes","all","mean","none",2  # penetrative shortwave flux at interface
+"ocean_model","hfds","hfds","Fluxes","all","mean","none",2  # total heat entering ocean surface
+"ocean_model","net_heat_coupler","net_heat_coupler","Fluxes","all","mean","none",2
+"ocean_model","heat_content_massin","heat_content_massin","Fluxes","all","mean","none",2
+"ocean_model","heat_content_massout","heat_content_massout","Fluxes","all","mean","none",2
+"ocean_model","heat_content_surfwater","heat_content_surfwater","Fluxes","all","mean","none",2
+"ocean_model","heat_content_fprec","heat_content_fprec","Fluxes","all","mean","none",2
+"ocean_model","heat_content_cond","heat_content_cond","Fluxes","all","mean","none",2
+"ocean_model","LwLatSens","LwLatSens","Fluxes","all","mean","none",2
+"ocean_model","Heat_PmE","Heat_PmE","Fluxes","all","mean","none",2
+"ocean_model","nonpenSW","nonpenSW","Fluxes","all","mean","none",2
+
+
+
+
+"ocean_model","SSH","SSH","TwoD","all","mean","none",2
+"ocean_model","SST","SST","TwoD","all","mean","none",2
+"ocean_model","SSU","SSU","TwoD","all","mean","none",2
+"ocean_model","SSV","SSV","TwoD","all","mean","none",2
+"ocean_model","MLD_003","MLD_003","TwoD","all","mean","none",2
+
+#"ocean_model","KPP_OBLdepth","KPP_OBLdepth","TwoD","all","mean","none",2
+#"ocean_model","ustar","ustar","TwoD","all","mean","none",2
+#"ocean_model","net_heat_surface","net_heat_surface","TwoD","all","mean","none",2
+#"ocean_model","surface_stokes_x","surface_stokes_x","TwoD","all","mean","none",2
+#"ocean_model","surface_stokes_y","surface_stokes_y","TwoD","all","mean","none",2
+#"ocean_model","KPP_La_SL","KPP_La_SL","TwoD","all","mean","none",2
+#"ocean_model","La_turbulent","La_turbulent","TwoD","all","mean","none",2

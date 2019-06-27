@@ -22,9 +22,9 @@
  &coupler_nml
             months = 0,
             days   = 10,
-            hours  = 0,
-            current_date = 2005,7,11,0,0,0,
-            calendar = 'NOLEAP',
+            hours  = 18,
+            current_date = 2016,7,1,6,0,0,
+            calendar = 'JULIAN',
             dt_cpld = 900,
             dt_atmos = 300,
             do_atmos = .false.,

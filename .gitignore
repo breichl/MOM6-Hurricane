@@ -14,8 +14,8 @@ fort.20
 *.nc
 *.nc.*
 RESTART
-ocean.stats.*
-seaice.stats.*
+ocean.stats*
+seaice.stats*
 # Ignore python .pyc files
 *.pyc
 .ipynb_checkpoints
@@ -23,3 +23,5 @@ seaice.stats.*
 *.ignore
 # Ignore lcov files
 lcov.*
+# Ignore any ~ files
+*~
