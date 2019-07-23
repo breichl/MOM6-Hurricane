@@ -2,7 +2,7 @@
 1900 1 1 0 0 0
 
 "TwoD",  3,"hours",1,"days","time"
-"ThreeD",3,"hours",1,"days","time"
+"ThreeD",12,"hours",1,"days","time"
 "Fluxes",3,"hours",1,"days","time"
 
 "ocean_model","u","u","ThreeD","all","mean","none",2

@@ -1,0 +1,4 @@
+! Blank file in which we can put "overrides" for parameters
+#override ADD_DIURNAL_SW = False ! This must ONLY be used in the ice-ocean mode, NOT fully coupled mode.
+#override NIGLOBAL = 990
+#override NJGLOBAL = 450
